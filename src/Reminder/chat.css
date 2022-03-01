@@ -1,0 +1,186 @@
+.webmain{
+    margin-top: 97px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading{
+    display: grid;
+    background: #4db6ac;
+    width: 100%;
+    color: white;
+    align-items: center;
+    height: 13%;
+    position: absolute;
+    top: 1px;
+
+
+}
+
+.user{
+    display: block;
+   
+    font-size: smaller;
+    color: crimson;
+}
+
+
+
+
+
+
+.websubdiv{
+    border: solid #4db6ac 2px;
+    position: relative;
+    /* border: solid black 2px; */
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 13px grey;
+}
+
+.inp{
+    background-color: #e0e0e0;
+    border-radius: 1vmax;
+    padding: 3px;
+}
+
+
+.outerbox{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.innerbox{
+    height: 80%;
+    width: 85%;
+    box-shadow: 2px 2px 10px;
+    background-color: white;
+}
+
+
+
+.header{
+    
+    background-color: #26a69a;
+    height: 11%;
+    position: relative;
+    font-size: x-large;
+    color: white;
+}
+
+.chatbox{
+    
+    height: 78%;
+    background-color: #eeeeee;
+}
+
+.msgbox{
+    display: flex;
+    border: 2px solid;
+    height: 11%;
+    padding: 3px;
+}
+
+.sendbtn{
+    width: 10%;
+    border: none;
+    border-radius: 0.5vmax;
+    background-color: #26a69a;
+}
+
+.msgbox>input{
+    width: 90%;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+}
+
+.msgbox.button>{
+    width:10%;
+}
+
+.messageBox{
+    width: auto;
+    max-width: 25%;
+     margin: 1vmax;
+    max-height: fit-content;
+    min-height: 34px;
+    border-radius: 9.5px;
+    padding: 1vmax;
+    clear: both;
+    font-size: large;
+    background-color: #bcf7c0;
+}
+
+.scroll{
+    background-color: #eeeeee;
+}
+
+.left{
+    float:left;
+    
+
+}
+
+.right{
+    float:right;
+    background-color: white;
+}
+
+.txtend{
+    text-align: end;
+
+}
+
+.txtstart{
+    text-align:left;
+
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    
+    position: absolute;
+    top: 2px;
+    right: 21px;
+    font-size: xx-large;
+}
+
+.welinp{
+    width: 25vw;
+    margin: 10px;
+
+}
+
+.welbtn{
+    width: 25vw;
+    
+}
+
+
+.headerdiv{
+    font-size: larger;
+
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    color: white;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+@media(max-aspect-ratio:7/10){
+
+    .websubdiv{
+        width: 100vw !important ;
+        height: 100vh !important ;
+        align-items: center !important;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center!important;
+    }
+    
+    .welinp{
+        width: 50vw;
+        padding: 1vmax;
+        font-size: x-large;
+        
+    }
+    
+    .welbtn{
+        width: 50vw;
+        padding: 1vmax;
+        font-size: x-large;
+        
+    }
+    
+    .header{
+        background-color: #26a69a;
+    }
+    .headerdiv{
+        font-size: xx-large;
+        top: 25px;
+    }
+    
+    .a{
+        
+        font-size: xxx-large;
+    }
+    
+    .msgbox{height: 9%;}
+    
+    .msgbox>input{
+        font-size: xx-large;
+    }
+    
+    .sendbtn{
+        width: 20vw;
+        font-size: x-large;
+    }
+    
+    .messageBox{
+        font-size: x-large;
+        max-width:55%;
+    
+    }
+    
+    .heading{
+        font-size: xx-large;
+    }
+    
+    
+    .innerbox{
+        height: 100%;
+        width: 100%;
+       
+    }
+    .heading{
+        background-color: #26a69a;
+    }
+    
+    }
