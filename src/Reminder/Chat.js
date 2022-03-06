@@ -17,6 +17,7 @@ function Chat()
 {
 
 const [id,setid]=useState("");
+
 const [message,setMessage]=useState([]);
 const [header,setHeader]=useState("user");
   
@@ -39,14 +40,16 @@ const send=()=>{
 
     //   return ()=>{}
     socket.emit('joined',{user});
-
+    
     socket.on('welcome',(data)=>{
       setHeader(user);
       setMessage([...message,data]);
        console.log(data.user,data.message);
+      
 
        socket.on('userjoined',(data)=>{
       setMessage([...message,data]);
+      
 
          console.log(data.message);
        });
@@ -73,6 +76,8 @@ const send=()=>{
     socket.on('sendmessage',(data)=>{
       setMessage([...message,data]);
       console.log(message);
+      //  setlobby([...lobby,data]);
+
 
       return()=>{
         socket.off();
@@ -84,7 +89,13 @@ const send=()=>{
   },[message]);
 
     return(
+      
+
+     
+
+
          <div className="outerbox">
+          
            <div className='innerbox'>
 
            <div className='header'>
@@ -124,10 +135,13 @@ const send=()=>{
            </div>
 
            </div>
-          
-
-           
+         
+    
+         
             
+        
+
+
         </div>
     )
 }

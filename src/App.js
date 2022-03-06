@@ -1,6 +1,6 @@
 
-
-import {Switch,Route,BrowserRouter } from "react-router-dom"
+import {HashRouter} from "react-router-dom";
+import {Switch,Route } from "react-router-dom"
 import Welcome from './Reminder/Welcome';
 import Chat from './Reminder/Chat';
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
    
-     <BrowserRouter>
+     <HashRouter>
      <Switch>
       
     <Route exact path="/">
@@ -27,7 +27,7 @@ function App() {
      </Switch>
       
       
-     </BrowserRouter>
+     </HashRouter>
     
      
     
