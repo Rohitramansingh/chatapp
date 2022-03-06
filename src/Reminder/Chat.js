@@ -13,13 +13,16 @@ let msg;
 
 
 
-function Chat()
+ function Chat()
 {
 
-const [id,setid]=useState("");
+  const [id,setid]=useState("");
 
 const [message,setMessage]=useState([]);
 const [header,setHeader]=useState("user");
+
+
+
   
 const send=()=>{
    msg=document.getElementById('sendid').value;
